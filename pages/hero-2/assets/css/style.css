@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:serif;
+    color: rgb(94, 59, 76);
+}
+body{
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+}
+.hero-two{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../img/pinkworld.png);
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+}
+.container{
+   height: 600px;
+   padding: 20px;
+   margin-left: 40px;
+   margin-right: 40px;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+}
+.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        gap: 1rem;
+        text-align: right;
+        padding-left: 2rem;
+        padding-bottom: 5rem;
+}
+.title {
+        font-size: 8rem;
+        letter-spacing: 1.5rem;
+        color: rgb(180, 24, 110);
+        margin-top: 7rem;
+        text-shadow: 4px 4px white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+& .subtitle{
+    font-size: 2rem;
+    padding-left: 2rem;
+    font-weight: 1000;
+    letter-spacing: 1rem;
+   }
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem;
+    gap: 2rem;
+    height: fit-content;
+    padding: 1rem 2rem;
+}
+& .button{
+    text-decoration: rgb(90, 11, 57);
+    text-align: center;
+    margin-top: 3%;
+    border: 3px solid rgba(255, 1, 73, 0.277);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    color: rgb(233, 164, 201);
+    background-color: rgb(192, 105, 130);
+    padding: 0.3rem 0.5rem;
+    font-size: 50px;
+    font-weight: 500%;
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: rgba(99, 29, 59, 0.519);
+        color: #e80874;
+        transform: translateY(-3px);
+        }
+      &.active {
+        background: rgba(84, 0, 43, 0.479);
+        }
+}
+& .btn {
+        background: rgba(255, 1, 73, 0.277);
+        box-shadow: 0 4px 30px rgba(240, 198, 214, 0.301);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(15px);
+        font-size: 1.2rem;
+        border: 1px solid rgba(255, 1, 73, 0.277);
+        padding: 0.2rem 0.5rem;
+        border-radius: 100px;
+        font-weight: 1000;
+        text-decoration:rgb(90, 11, 57);
+        color: var(--color-primary-1);
+        overflow: hidden;
+        transition: all 0.5s ease;
+        &:hover {
+            background-color: rgba(99, 29, 59, 0.519);
+            color: #e80874;
+            transform: translateY(-3px);
+            }
+          &.active {
+            background: rgba(84, 0, 43, 0.479);
+            }
+}

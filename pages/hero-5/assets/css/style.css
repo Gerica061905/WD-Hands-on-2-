@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:serif;
+    color: rgb(129, 19, 74);
+}
+body{
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+        background-image: url(../img/pinkitty.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+}
+.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+        gap: 1rem;
+        text-align: left;
+        padding-bottom: 5rem;
+}
+.title {
+        font-size: 7rem;
+        text-align: left;
+        margin-left: -9.5%;
+        margin-bottom: 10%;
+        letter-spacing: 1rem;
+        color: rgb(171, 12, 112);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        transition: .5s;
+        &:hover{
+                -webkit-text-stroke: 1px rgb(171, 12, 112);
+                color: transparent;
+        }
+}
+.subtitle {
+        margin-left: 10%;
+        margin-top: -10%;
+        font-weight: 3000;
+        text-align: left;
+        letter-spacing: 0.1rem;
+        color: rgb(70, 54, 64);
+        border-radius: 18%;
+        padding: 1rem 1rem;
+        backdrop-filter: blur(10px);
+        border: 1px solid #e7b7ce;
+}
+.header {
+        width: 100%;
+        color: hotpink;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1rem 2rem;
+        gap: 2rem;
+        height: fit-content;
+}
+.button {
+        text-decoration: none;
+        color: #a90454;
+        margin-right: 64%;
+        font-size: 30px;
+        font-weight: 1000;
+        transition: .5s;
+        &:hover{
+                -webkit-text-stroke: 1px rgb(171, 12, 112);
+                color: transparent;
+        }
+
+}
+& .btn {
+        background: rgb(163, 49, 104);
+        box-shadow: 0 4px 30px rgba(83, 14, 40, 0.301);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        font-size: 1.2rem;
+        border: 1px solid rgba(255, 1, 73, 0.277);
+        padding: 0.2rem 0.5rem;
+        border-radius: 100px;
+        font-weight: 1000;
+        text-decoration:rgb(90, 11, 57);
+        color: var(--color-primary-1);
+        overflow: hidden;
+        transition: all 0.5s ease;
+        &:hover {
+            background-color: rgba(99, 29, 59, 0.519);
+            color: #e7b7ce;
+            transform: translateY(-3px);
+            }
+          &.active {
+            background: rgba(84, 0, 43, 0.479);
+            }
+}

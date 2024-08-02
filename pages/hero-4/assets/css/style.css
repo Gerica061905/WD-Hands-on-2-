@@ -1,0 +1,123 @@
+*{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family:serif;
+        color: rgb(220, 145, 182);
+}
+body{
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+}
+.hero-four{
+        width: 100vw;
+        min-height: 100vh;
+        background-image: url(../img/pinky\ play.png);
+        background-position: center;
+        background-size: cover;
+        font-size: 18px;
+}
+.container{
+       height: 5px;
+       padding: 5px;
+       margin-left: 40px;
+       display: flex;
+       align-items: left;
+       gap: 20px;
+}
+.content {
+       display: flex;
+       flex-direction: column;
+       align-items: left;
+       justify-content: left;
+       height: 100%;
+       width: 100%;
+       gap: 1rem;
+       padding-left: 2rem;
+       padding-bottom: 5rem;
+}
+.title {
+       font-size: 8rem;
+       letter-spacing: .5rem;
+       color:rgb(239, 182, 218);
+       text-shadow: 3.5px 3.5px rgb(31, 131, 149);
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subtitle {
+        text-decoration: none;
+        color:rgb(43, 170, 193);
+        font-size: 1.8rem;
+        padding: 5px 5px;
+        width: 64%;
+        padding-top: .5rem;
+        text-align: left;
+        border: 3px solid;
+        border-radius: 18px;
+        background-color: rgb(138, 79, 111);
+        transition: all 0.5s ease;
+        &:hover {
+          background-color: rgb(99, 29, 59);
+          color: rgb(233, 164, 201);;
+          transform: translateY(-3px);
+        }
+        &.active {
+            background: rgb(84, 0, 43);
+        }
+}
+.header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1rem;
+        gap: 2rem;
+        height: fit-content;
+}
+& .button{
+        text-decoration: none;
+        text-align: center;
+        margin-top: 3%;
+        width: 16%;
+        border: 1px solid rgb(31, 131, 149);
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        color: rgb(255, 255, 255);
+        background-color:  rgb(204, 43, 129);
+        padding: 0.3rem 0.5rem;
+        font-size: 40px;
+        font-weight: 500%;
+        transition: all 0.5s ease;
+        &:hover {
+            background-color: rgb(67, 7, 33);
+            color: rgb(243, 180, 213);;
+            transform: translateY(-3px);
+            }
+          &.active {
+            background: rgb(84, 0, 43);
+            }
+}
+& .btn {
+        background: rgb(196, 101, 155);
+        box-shadow: 0 4px 30px rgba(240, 198, 214, 0.797);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(15px);
+        font-size: 1.2rem;
+        border: 1px solid rgb(233, 24, 122);
+        padding: 0.2rem 0.5rem;
+        border-radius: 100px;
+        font-weight: 1000;
+        text-decoration:rgb(90, 11, 57);
+        color: var(--color-primary-1);
+        overflow: hidden;
+        transition: all 0.5s ease;
+        &:hover {
+                background-color: rgba(58, 20, 36, 0.519);
+                color: #edcadb;
+                transform: translateY(-3px);
+                }
+        &.active {
+                background: rgba(84, 0, 43, 0.479);
+                }
+}
