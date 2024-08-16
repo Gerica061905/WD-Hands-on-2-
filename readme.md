@@ -54,7 +54,7 @@
 ---
 
 ## Overview
-
+This project focuses on different designs for hero sections and cards, including both static and animated versions. It’s meant to help students and web designers learn key web design skills through hands-on practice. By trying out various visual styles, participants develop the ability to create engaging and interactive web experiences, preparing them for real-world design challenges.
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
@@ -69,6 +69,8 @@
 <!-- The following are just sample -->
 - MultiPage Website
 - Animation and hover effects
+- Static and Animation
+- Hover State
 
 ### Technology
 <!-- TODO: List of Technology Used -->
