@@ -46,11 +46,11 @@ body{
         font-size: 8rem;
         letter-spacing: 1.5rem;
         color: rgb(180, 24, 110);
-        margin-top: 7rem;
-        text-shadow: 4px 4px white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: 4px 4px rgb(217, 136, 197);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 & .subtitle{
+    margin-top: 10%;
     font-size: 2rem;
     padding-left: 2rem;
     font-weight: 1000;
@@ -68,7 +68,7 @@ body{
 & .button{
     text-decoration: rgb(90, 11, 57);
     text-align: center;
-    margin-top: 3%;
+    margin-top: 2%;
     border: 3px solid rgba(255, 1, 73, 0.277);
     border-radius: 20px;
     backdrop-filter: blur(5px);
